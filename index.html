@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b314f23bfc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <a href="#" class="logo">
+          <i
+            data-visualcompletion="css-img"
+            aria-label="Instagram"
+            class="logo"
+            role="img"
+            style="
+              background-image: url('https://static.cdninstagram.com/rsrc.php/v3/yM/r/8n91YnfPq0s.png');
+              background-position: 0px -52px;
+              background-size: auto;
+              width: 175px;
+              height: 51px;
+              background-repeat: no-repeat;
+              display: inline-block;
+            "
+          ></i>
+        </a>
+        <!-- Menu -->
+        <div class="menu">
+          <a href="#" class="active">
+            <span class="icon"
+              ><i class="fa-solid fa-house" style="height: 10x"></i
+            ></span>
+            Home
+          </a>
+          <a href="#">
+            <span class="icon"><i class="ri-search-line"></i></span>
+            Search
+          </a>
+          <a href="#">
+            <span class="icon"><i class="ri-compass-3-line"></i></span>
+            Explore
+          </a>
+          <a href="#">
+            <span class="icon"
+              ><svg
+                aria-label="Reels"
+                class="x1lliihq x1n2onr6 x5n08af"
+                fill="currentColor"
+                height="18"
+                role="img"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <title>Reels</title>
+                <line
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  x1="2.049"
+                  x2="21.95"
+                  y1="7.002"
+                  y2="7.002"
+                ></line>
+                <line
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  x1="13.504"
+                  x2="16.362"
+                  y1="2.001"
+                  y2="7.002"
+                ></line>
+                <line
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  x1="7.207"
+                  x2="10.002"
+                  y1="2.11"
+                  y2="7.002"
+                ></line>
+                <path
+                  d="M2 12.001v3.449c0 2.849.698 4.006 1.606 4.945.94.908 2.098 1.607 4.946 1.607h6.896c2.848 0 4.006-.699 4.946-1.607.908-.939 1.606-2.096 1.606-4.945V8.552c0-2.848-.698-4.006-1.606-4.945C19.454 2.699 18.296 2 15.448 2H8.552c-2.848 0-4.006.699-4.946 1.607C2.698 4.546 2 5.704 2 8.552Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                ></path>
+                <path
+                  d="M9.763 17.664a.908.908 0 0 1-.454-.787V11.63a.909.909 0 0 1 1.364-.788l4.545 2.624a.909.909 0 0 1 0 1.575l-4.545 2.624a.91.91 0 0 1-.91 0Z"
+                  fill-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            Reels
+          </a>
+          <a href="#">
+            <span class="icon">
+              <svg
+                aria-label="Messenger"
+                class="x1lliihq x1n2onr6 x5n08af"
+                fill="currentColor"
+                height="18"
+                role="img"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <title>Messenger</title>
+                <path
+                  d="M12.003 2.001a9.705 9.705 0 1 1 0 19.4 10.876 10.876 0 0 1-2.895-.384.798.798 0 0 0-.533.04l-1.984.876a.801.801 0 0 1-1.123-.708l-.054-1.78a.806.806 0 0 0-.27-.569 9.49 9.49 0 0 1-3.14-7.175 9.65 9.65 0 0 1 10-9.7Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-miterlimit="10"
+                  stroke-width="1.739"
+                ></path>
+                <path
+                  d="M17.79 10.132a.659.659 0 0 0-.962-.873l-2.556 2.05a.63.63 0 0 1-.758.002L11.06 9.47a1.576 1.576 0 0 0-2.277.42l-2.567 3.98a.659.659 0 0 0 .961.875l2.556-2.049a.63.63 0 0 1 .759-.002l2.452 1.84a1.576 1.576 0 0 0 2.278-.42Z"
+                  fill-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            Messages
+          </a>
+          <a href="#">
+            <span class="icon"><i class="ri-heart-line"></i></span>
+            Notifications
+          </a>
+          <a href="#">
+            <span class="icon">
+              <svg
+                aria-label="New post"
+                class="x1lliihq x1n2onr6 x5n08af"
+                fill="currentColor"
+                height="18"
+                role="img"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <title>New post</title>
+                <path
+                  d="M2 12v3.45c0 2.849.698 4.005 1.606 4.944.94.909 2.098 1.608 4.946 1.608h6.896c2.848 0 4.006-.7 4.946-1.608C21.302 19.455 22 18.3 22 15.45V8.552c0-2.849-.698-4.006-1.606-4.945C19.454 2.7 18.296 2 15.448 2H8.552c-2.848 0-4.006.699-4.946 1.607C2.698 4.547 2 5.703 2 8.552Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                ></path>
+                <line
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  x1="6.545"
+                  x2="17.455"
+                  y1="12.001"
+                  y2="12.001"
+                ></line>
+                <line
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  x1="12.003"
+                  x2="12.003"
+                  y1="6.545"
+                  y2="17.455"
+                ></line>
+              </svg>
+            </span>
+            Create
+          </a>
+          <a href="#">
+            <span class="icon"
+              ><img
+              src="https://s3-alpha-sig.figma.com/img/942f/55d1/a44a9dac8b5e5b87f2fc8156546b58f0?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gIz78TCh~fTIY6NiZgqdTOCbfXtN8oUOni-iqFOswaoODGzmFbAxwtP0qlKxFBd2ua2w6qGlvgeslJxj58aXV-B0twqnbTMyXpuskEcUITIyh-JawBFepyzU0ynb8BxHpEAbGn-3Lo1pXdz2sfbX0xV03LXEnQFSLmK-3WfDSbfxL5wSZ0IfNirtdBuNzdGBwQefKnmNxq7MQ9lKVnrnAfIBZ-~acatI~qcM9rS~x~Iu2Vun8f8V4GxoVXy58LLooflAfrmuAfe1cr5VCf97V9RWQN3IO2JvsNzL20EG4rhv9~M3YTNtjH-zcYr4o4EX9J3-gMbTAvmeQOPZHeAm9w__"
+              style="width: 20px; height: 20px; border-radius: 50%;""
+              alt="profile"></span
+            >
+            Profile
+          </a>
+          <a href="#">
+            <span class="icon"><i class="ri-align-justify"></i></span>
+            More
+          </a>
+        </div>
+
+        <!-- rectangle -->
+        <div class="rectangle">
+          <div style="display: flex; justify-self: start">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/19b6/8337/8e0b2b107c197b117fbf28a8d6ba7acf?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CCI2P9YFDiL4GgBdynTGgqOYJt~051Rtoa11XNHQPbgSoFXVLzWJi5HuJeLyVDYPrNnwb0kCgNEZ3oTi7A8XxhwhPdHHdR3NPD9FB-FdlfYn-TNlcFFIg1LTjCMRETeXFG364O99DPKqxnWs9MZZL56vvSgJk4KGOka6tB96VGcFGf-8Q5T~u0qkvSJkuwY-YSY17IWr4wzPhpTfl-JGLBpkn8DwdXIZH9m8weWQaBoB6eKZPZbpcwees74OGazOspuzrwiPb~LDEWHmE3dTKoydt7zVF71JXR4Kp7G8B3TGyExA~avbfpswfNrxwqiMSBEH~ZXdO0ncBU3dBsruLQ__"
+              alt="img"
+            />
+            <p style="margin-top: 10px; margin-left: 10px"><b>upvox_</b></p>
+            <p style="margin-left: -55px; margin-top: 30px; color: darkgrey">
+              Upvox
+            </p>
+            <p style="margin-left: 175px; margin-top: 20px; color: blue">
+              switch
+            </p>
+          </div>
+          <div class="rectangle-box">
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+              "
+            >
+              <p style="color: darkgray">Suggestions for you</p>
+              <p>See all</p>
+            </div>
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+              "
+            >
+              <div class="img"></div>
+              <p style="margin-top: 5px; margin-left: 10px"><b>imkir</b></p>
+              <p style="margin-left: -35px; margin-top: 20px; color: darkgrey">
+                Followsyou
+              </p>
+              <p style="margin-left: 165px; margin-top: 20px; color: blue">
+                Follow
+              </p>
+            </div>
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+              "
+            >
+              <div class="img"></div>
+              <p style="margin-top: 5px; margin-left: 10px"><b>imkir</b></p>
+              <p style="margin-left: -35px; margin-top: 20px; color: darkgrey">
+                Followsyou
+              </p>
+              <p style="margin-left: 165px; margin-top: 20px; color: blue">
+                Follow
+              </p>
+            </div>
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+              "
+            >
+              <div class="img"></div>
+              <p style="margin-top: 5px; margin-left: 10px"><b>imkir</b></p>
+              <p style="margin-left: -35px; margin-top: 20px; color: darkgrey">
+                Followsyou
+              </p>
+              <p style="margin-left: 165px; margin-top: 20px; color: blue">
+                Follow
+              </p>
+            </div>
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+              "
+            >
+              <div class="img"></div>
+              <p style="margin-top: 5px; margin-left: 10px"><b>imkir</b></p>
+              <p style="margin-left: -35px; margin-top: 20px; color: darkgrey">
+                Followsyou
+              </p>
+              <p style="margin-left: 165px; margin-top: 20px; color: blue">
+                Follow
+              </p>
+            </div>
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+              "
+            >
+              <div class="img"></div>
+              <p style="margin-top: 5px; margin-left: 10px"><b>imkir</b></p>
+              <p style="margin-left: -35px; margin-top: 20px; color: darkgrey">
+                Followsyou
+              </p>
+              <p style="margin-left: 165px; margin-top: 20px; color: blue">
+                Follow
+              </p>
+            </div>
+          </div>
+          <!-- bottom -->
+          <div class="bottom">
+            <p>
+              About &#10625; Help< &#10625; Press &#10625; API &#10625; Jibs
+              &#10625; Privacy &#10625; Trems &#10625; Locations &#10625;
+              Language &#10625; Meta Verified
+            </p>
+            <p style="margin-top: 50px">© 2023 INSTAGRAM FOR META</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Home -->
+      <div class="main-home">
+        <div class="stories">
+          <!-- Stories 1 -->
+          <div class="stories-img">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/f1b5/c2ab/85fb415ef4f507a1bd1747f7c90a4447?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b-wEetr2vn-uoJDAr5mKWQDU-jMFVFv4FDWNgqrWcTNfGPlwKgpL6UrocvvtvIQyVxRXvwBC09mZODnD-7cCCn9HAw3wiKrTaYiWS99jYAM8eAvTyYRsYrgRqucELQl3mQITuVz43DSUnXtRBr-xWBzYEdsy-N49mZdVJtFHFMQHu5nhjfX8UjAeYwkxze1t1krfVKqH65dsjeAopB9MM679yvIJzSr~C76aeqm4TuyiNPp5e-3yhSN4nPUpy35GiRpHWAOGn5iSgN4Us7NtymfPJqiBaylpsT925vxMPw3FnWo9ke5AHxoR7nASpJXdH04QB6HuOz8pRykiPh4pqQ__"
+              alt="stories1"
+            />
+          </div>
+          <!-- Stories 2 -->
+          <div class="stories-img">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/02dc/b37b/e364369c1425aa22414540a765f104d7?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MAb5zRMrXWrBdewKIkly3Lzi~ndDW8qsK44pqc5zE4LLj1lLIk6LFSyGdTTmqmmags5eX9Z-B-0NrRVqc5h20HKNiy-Tse5fWgP3WGowe9V-gdPTvAhJlpuiQv57fYNxdenZtaUD9WQAp~OdrmsjA8ARClXIizXG6gMwyuzePYNTJLnrnnuyf9mxLF~fRNu~H2QYoQxnDttAtn~M75A-dgBGR7RwpLNHxjISomE0M8vVD075yW2e7q9apDG99l7su34R~8d3NeYXPPYqcYqhOb5kR1Hqzt-1fhkAuIapTw81dx7Yl6j95bAryxLlX5rn6UJQUhQeUF7FvuhDQpbEIQ__"
+              alt="stories2"
+            />
+          </div>
+
+          <!-- Stories 3 -->
+          <div class="stories-img">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/4961/b825/03746d58b13bf1eaa3f12121fcfe4c60?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Is1uwpyXeFQYtrBrwoA3vA24~Png8Mi0FAq6noDRBOI-8XccBoZj0nV4Bmijikl9H25-64BOAru47Wwi5FHQzIqbglOzZg49U6nBIVkUF0yJDUmy--ZPYBnX6kmOtSoSYKQ16XH2L92~hZQ3RNTTGaNqkNkVsVPdQp51nSGEXOmAcJxoE4z51m0hbAxVvVcgeh7tmG5rFLOy7xOWCkXuaHs1gC7XtlS-wzJWSEAEtY2gyHIeDsWNhYP3eLyOrVW55ir-dkoArlJDlFQdIctRFwVo10jIAtNfiRkN3d7nbGNbV6TTfkkn8ox2br6L1m07TMTJf7B4jtuhpXziw9oz1w__"
+              alt="stories3"
+            />
+          </div>
+          <!-- Stories 4 -->
+          <div class="stories-img">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/1abc/33ed/260797fb26280ba4939cb0d7e5835f5c?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JXMgWlkIHRQwgq5oaxLLAeKHFQQNk6qiFgDCEk-208HO~EU~C29FtK-K1uKUMQJ5QDoH6hqMwPcO4Zn6wIdS6FqDTprbwYTxPTkCuwzmpAUBpG4kEFDSoY0~GtKXDqjTWItiwdXrr-cGNvF9GfzdVR5eh~A-u-Adx5cEWi9o6upB49kxeisz6f377ngJwe5YPQyVjJdBIPOK21w1Rcju5GeX8HIy4IueQxDcnz0eCE14t6V39d-ScMUt5N92kgHNXDkDgUUupj7CpH7upijqWmP7brm~64a761hCYOT7336KgqU-CYsr-fqf1ohatmdsOJAfYDr7izPhrnFToz0Gjw__"
+              alt="stories4"
+            />
+          </div>
+          <!-- Stories 5 -->
+          <div class="stories-img">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/bc08/1145/322d64092b54a3f6573d6fb9a77ad43f?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YDoz-z75toDmTPXTYKo1icGiUu3ZqVGCqJ0eJkv3b0jglLMdBh1WeQRYB2WKWPSA2TMT7uPYNFoaQpT9SwS5xWNxUpCoDRKTfpiPElM1vFneQQv6ztjSS8LXYUDX1ll2d6nf6gHca20cy9N1sbDShSPKQyjwp78p-ZfqnZt~xi0wdLUu-wBCGep0R4Wa-n5jxKqfquufGNQ6Hf-Nlkb9bzy9KKTiMQF5~MUdx~fGCCI3hVeWxsBw6N5J-YIDB8ZzdBH49Q6msr2LyV8X~JulHDkjC6VeQBP5rMPIpmiVR-ycRtk~BVqH3WF~GfPk2QFMu-CbwB7ncNG-wL6l6rZZ5g__"
+              alt="stories5"
+            />
+          </div>
+          <!-- Stories 6 -->
+          <div class="stories-img">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/1d5a/67f1/05c87ba141ebe9163071de206e1502b6?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=U8vTMLHXZkhoaMCuL4dySsKOFUN9GIePYusmpeIiE9vwnU~S28emvDzO5p5C41KJB85WiJkciXWOTke~yjSULWsEc6Z6zenL4IrDukwvUqP1B-LQFJswH8kQrTiYjrhEJybvxl7kuBn1a~DdUiPJHLg~MkrZIHhTx0MBGft0MUv-BhADTRC5oQ3rUE7r8qlDCwBAQvMErl1Y6PizPrd-h45nR-1w22~FsBCZG-0EJ3eGNI8inH4wLbAZM-vfv6cvN4VG0tGk5RTolDYl0Y-9XWfktJyHVGZRoql7vsrm-6gj56QSiksf8A9TbJPsW3flTUTF8Iq6b3Yft3frVupBQg__"
+              alt="stories5"
+            />
+          </div>
+        </div>
+        <div class="post">
+          <div class="main-post">
+            <!-- Posts1 -->
+            <div class="post-box">
+              <div class="post-profile">
+                <div class="post-img">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/4961/b825/03746d58b13bf1eaa3f12121fcfe4c60?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Is1uwpyXeFQYtrBrwoA3vA24~Png8Mi0FAq6noDRBOI-8XccBoZj0nV4Bmijikl9H25-64BOAru47Wwi5FHQzIqbglOzZg49U6nBIVkUF0yJDUmy--ZPYBnX6kmOtSoSYKQ16XH2L92~hZQ3RNTTGaNqkNkVsVPdQp51nSGEXOmAcJxoE4z51m0hbAxVvVcgeh7tmG5rFLOy7xOWCkXuaHs1gC7XtlS-wzJWSEAEtY2gyHIeDsWNhYP3eLyOrVW55ir-dkoArlJDlFQdIctRFwVo10jIAtNfiRkN3d7nbGNbV6TTfkkn8ox2br6L1m07TMTJf7B4jtuhpXziw9oz1w__"
+                    alt="profile"
+                  />
+                </div>
+                <h3>
+                  lewlshmilton
+                  <i class="ri-verified-badge-fill" style="color: blue"></i>
+                </h3>
+                <i
+                  class="ri-more-fill"
+                  style="display: inline; margin-left: 300px"
+                ></i>
+              </div>
+              <img
+                src="https://s3-alpha-sig.figma.com/img/82bf/6f81/904c1184bf7226524b14d64dd0d56731?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=D4L68PTWjm~Rh8VC8csSX0v~055Z78sa-egQ8mdLiGP6nTfRMa7TaFDPu34LEbaevfqZ1GtpASP6ZXTAxrFoOmN0hJ3JcjJrdWuhAQXQHA5cs6ujMAhw3taBD16LqqQ1d1kq3o3KZXhvTNky8fiGudN8DXWwxneSL9RBSCwGLKrKmxCLoNOrWBg6GyhOxcq26Wn3CqfT~hftyt6wPLHR84xjkMCzLvp-wUkGZGtIPLFEQ70PLApO3XjH0gVUr5JzRhxvYCqkduRrr9FOA7~gcwLrv8KKoTcH3HlbbAIu8TMevpJSO9vzyuAp8uD1DuBTPLCR75HJtzSJQxaG0Tf2Bg__"
+                alt="post"
+              />
+              <div class="post-info">
+                <div class="likes">
+                  <i class="ri-heart-line"></i>
+                  <i class="ri-chat-3-line"></i>
+                  <i class="fa-regular fa-paper-plane"></i>
+                </div>
+                <i
+                  class="fa-regular fa-bookmark"
+                  style="margin-left: 375px"
+                ></i>
+              </div>
+              <div style="margin-top: 10px">741,368 likes</div>
+              <p style="margin-top: 10px">
+                <b>lewlshamilton</b> Parabens Atrton, mlnha inspiracao sempre
+              </p>
+              <p style="margin-top: 10px"><b>See translation</b></p>
+              <p style="color: darkgrey; margin-top: 10px">
+                View all 13,384 comments
+              </p>
+              <p style="margin-top: 10px">Add a comment...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Suggestion -->
+    <div>
+      <div
+        style="
+          display: flex;
+          justify-content: space-between;
+          width: 476px;
+          margin-left: 410px;
+          margin-top: -80px;
+        "
+      >
+        <p style="color: darkgray">Suggestions for you</p>
+        <p style="color: blue">See all</p>
+      </div>
+      <div class="suggestions">
+        <div class="insta-card" style="width: 176px; height: 198px">
+          <i
+            class="ri-close-line"
+            style="display: flex; justify-content: flex-end; color: darkgray"
+          ></i>
+          <div class="profile-info">
+            <div class="profile-picture">
+              <img
+                src="https://s3-alpha-sig.figma.com/img/942f/55d1/a44a9dac8b5e5b87f2fc8156546b58f0?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gIz78TCh~fTIY6NiZgqdTOCbfXtN8oUOni-iqFOswaoODGzmFbAxwtP0qlKxFBd2ua2w6qGlvgeslJxj58aXV-B0twqnbTMyXpuskEcUITIyh-JawBFepyzU0ynb8BxHpEAbGn-3Lo1pXdz2sfbX0xV03LXEnQFSLmK-3WfDSbfxL5wSZ0IfNirtdBuNzdGBwQefKnmNxq7MQ9lKVnrnAfIBZ-~acatI~qcM9rS~x~Iu2Vun8f8V4GxoVXy58LLooflAfrmuAfe1cr5VCf97V9RWQN3IO2JvsNzL20EG4rhv9~M3YTNtjH-zcYr4o4EX9J3-gMbTAvmeQOPZHeAm9w__"
+                alt="card1"
+              />
+            </div>
+            <div class="username">Kirti Chadha</div>
+            <p style="color: darkgray; text-align: center">Follos you</p>
+          </div>
+          <button class="follow-btn">Follow</button>
+        </div>
+        <div class="insta-card" style="width: 176px; height: 198px">
+          <i
+            class="ri-close-line"
+            style="display: flex; justify-content: flex-end; color: darkgray"
+          ></i>
+          <div class="profile-info">
+            <div class="profile-picture">
+              <img
+                src="https://s3-alpha-sig.figma.com/img/942f/55d1/a44a9dac8b5e5b87f2fc8156546b58f0?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gIz78TCh~fTIY6NiZgqdTOCbfXtN8oUOni-iqFOswaoODGzmFbAxwtP0qlKxFBd2ua2w6qGlvgeslJxj58aXV-B0twqnbTMyXpuskEcUITIyh-JawBFepyzU0ynb8BxHpEAbGn-3Lo1pXdz2sfbX0xV03LXEnQFSLmK-3WfDSbfxL5wSZ0IfNirtdBuNzdGBwQefKnmNxq7MQ9lKVnrnAfIBZ-~acatI~qcM9rS~x~Iu2Vun8f8V4GxoVXy58LLooflAfrmuAfe1cr5VCf97V9RWQN3IO2JvsNzL20EG4rhv9~M3YTNtjH-zcYr4o4EX9J3-gMbTAvmeQOPZHeAm9w__"
+                alt="card1"
+              />
+            </div>
+            <div class="username">Kirti Chadha</div>
+            <p style="color: darkgray; text-align: center">Follos you</p>
+          </div>
+          <button class="follow-btn">Follow</button>
+        </div>
+        <div class="insta-card" style="width: 176px; height: 198px">
+          <i
+            class="ri-close-line"
+            style="display: flex; justify-content: flex-end; color: darkgray"
+          ></i>
+          <div class="profile-info">
+            <div class="profile-picture">
+              <img
+                src="https://s3-alpha-sig.figma.com/img/0bef/2064/1d49a7c28715db08b1850aa118875c3f?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZBUsjdTxVjnDPlNyafx9254BXr4AgPd3MuJYrjvb52kCvgnPcOx269GnUW~ecEbCV~zbhBAMQUBVM34GYUkUNEOk2tT5NmQJ6XD3MiWoV5i2ENQwZSxURQKrlnPJn8vhc1-r2JAl3vQS2lr70AwakGb~TZNMq3znLlZ3b~mzmpNpCP18h3AW9k4HpymoXVWPdRrYEkS9CbVLUPCwuIbPC3QgXS4qViu5jGOLKr03bmEJfVy8eiaPoh5kPse8LFmQug8Ru-DPIHOVLIyBW0ALidHQFjQ2MisMmB20pYlej51IpYiw8ZDFfDOGZoSBarHW08OpDeA7VyxxfcEMUwsOEQ__"
+              />
+            </div>
+            <div class="username">Kirti Chadha</div>
+            <p style="color: darkgray; text-align: center">Follos you</p>
+          </div>
+          <button class="follow-btn">Follow</button>
+        </div>
+        <div class="insta-card" style="width: 176px; height: 198px">
+          <i
+            class="ri-close-line"
+            style="display: flex; justify-content: flex-end; color: darkgray"
+          ></i>
+          <div class="profile-info">
+            <div class="profile-picture">
+              <img
+                src="https://s3-alpha-sig.figma.com/img/942f/55d1/a44a9dac8b5e5b87f2fc8156546b58f0?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gIz78TCh~fTIY6NiZgqdTOCbfXtN8oUOni-iqFOswaoODGzmFbAxwtP0qlKxFBd2ua2w6qGlvgeslJxj58aXV-B0twqnbTMyXpuskEcUITIyh-JawBFepyzU0ynb8BxHpEAbGn-3Lo1pXdz2sfbX0xV03LXEnQFSLmK-3WfDSbfxL5wSZ0IfNirtdBuNzdGBwQefKnmNxq7MQ9lKVnrnAfIBZ-~acatI~qcM9rS~x~Iu2Vun8f8V4GxoVXy58LLooflAfrmuAfe1cr5VCf97V9RWQN3IO2JvsNzL20EG4rhv9~M3YTNtjH-zcYr4o4EX9J3-gMbTAvmeQOPZHeAm9w__"
+                alt="card1"
+              />
+            </div>
+            <div class="username">Kirti Chadha</div>
+            <p style="color: darkgray; text-align: center">Follos you</p>
+          </div>
+          <button class="follow-btn">Follow</button>
+        </div>
+
+        <div class="insta-card" style="width: 176px; height: 198px">
+          <i
+            class="ri-close-line"
+            style="display: flex; justify-content: flex-end; color: darkgray"
+          ></i>
+          <div class="profile-info">
+            <div class="profile-picture">
+              <img
+                src="https://s3-alpha-sig.figma.com/img/942f/55d1/a44a9dac8b5e5b87f2fc8156546b58f0?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gIz78TCh~fTIY6NiZgqdTOCbfXtN8oUOni-iqFOswaoODGzmFbAxwtP0qlKxFBd2ua2w6qGlvgeslJxj58aXV-B0twqnbTMyXpuskEcUITIyh-JawBFepyzU0ynb8BxHpEAbGn-3Lo1pXdz2sfbX0xV03LXEnQFSLmK-3WfDSbfxL5wSZ0IfNirtdBuNzdGBwQefKnmNxq7MQ9lKVnrnAfIBZ-~acatI~qcM9rS~x~Iu2Vun8f8V4GxoVXy58LLooflAfrmuAfe1cr5VCf97V9RWQN3IO2JvsNzL20EG4rhv9~M3YTNtjH-zcYr4o4EX9J3-gMbTAvmeQOPZHeAm9w__"
+                alt="card1"
+              />
+            </div>
+            <div class="username">Kirti Chadha</div>
+            <p style="color: darkgray; text-align: center">Follos you</p>
+          </div>
+          <button class="follow-btn">Follow</button>
+        </div>
+        <div class="insta-card" style="width: 176px; height: 198px">
+          <i
+            class="ri-close-line"
+            style="display: flex; justify-content: flex-end; color: darkgray"
+          ></i>
+          <div class="profile-info">
+            <div class="profile-picture">
+              <img
+                src="https://s3-alpha-sig.figma.com/img/942f/55d1/a44a9dac8b5e5b87f2fc8156546b58f0?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gIz78TCh~fTIY6NiZgqdTOCbfXtN8oUOni-iqFOswaoODGzmFbAxwtP0qlKxFBd2ua2w6qGlvgeslJxj58aXV-B0twqnbTMyXpuskEcUITIyh-JawBFepyzU0ynb8BxHpEAbGn-3Lo1pXdz2sfbX0xV03LXEnQFSLmK-3WfDSbfxL5wSZ0IfNirtdBuNzdGBwQefKnmNxq7MQ9lKVnrnAfIBZ-~acatI~qcM9rS~x~Iu2Vun8f8V4GxoVXy58LLooflAfrmuAfe1cr5VCf97V9RWQN3IO2JvsNzL20EG4rhv9~M3YTNtjH-zcYr4o4EX9J3-gMbTAvmeQOPZHeAm9w__"
+                alt="card1"
+              />
+            </div>
+            <div class="username">Kirti Chadha</div>
+            <p style="color: darkgray; text-align: center">Follos you</p>
+          </div>
+          <button class="follow-btn">Follow</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="post">
+      <div class="main-post">
+        <!-- Posts1 -->
+        <div class="post-box">
+          <div class="post-profile">
+            <div class="post-img">
+              <img
+                src="https://s3-alpha-sig.figma.com/img/78eb/4139/68052ccb41b614ed7621f72fea9cd89c?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RbLc6UWhrIdToB9ETMkFa4f9C8c9iCLK6czJoKQx5IGE0KXGXdtVyipdowpAqjPxN4HdMRweHDZoEpyrtrtAvknOURCKtUwFduTgjBQCnCXsbztqq5kaqHNCYurOqVdrDcdpNy6-lFph5Sl2vVCeqkdC4ffs2~Cef4wP71D1kgdLloE758y0cmQlJSkyfxKbmtVdxb4~JB6x2RXM-usoshrnx7xrO~pfzac1YHU~dgV-RNt06piuE-jJiuFL7MqmRbYiJ4fom7k4AzSD2-WRZcpbcw~Oe9cz0rhpbpOhvWIlPRBeBwSiFcb0h7lWOIFf2e4sewAzZtlBU8ug7DK6cg__"
+                alt="profile"
+              />
+            </div>
+            <h3>
+              kurzgesagt
+              <i class="ri-verified-badge-fill" style="color: blue"></i>
+            </h3>
+            <i
+              class="ri-more-fill"
+              style="display: inline; margin-left: 300px"
+            ></i>
+          </div>
+          <img
+            src="https://s3-alpha-sig.figma.com/img/f996/fe8f/efb4b5f6ec5067662e18c0ee1177fee7?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p2twlP9mBfsr~BG5JZs2v5PKHhrG8EkO~cJPQv3~Kn2EBTcKXBoWIvdG~5FTyoMjFogqK~-14g~bvTz99N~Egnpj99LLLZILN0VJMRstjZZJP7pyIucInZHEcXV~jpZ2yCteSS1JmRCjOM8V543nrve9NEaefX5jM93VdyX9WcsmWnalJOyYv7jDkAqwTLnxFhOTWEndhWA4egWlhcMjFzdMLWzQhcJoRwvbcrXeylz60Z31BtkqexhAEH7asBvTxnUDRRqHLT7YGEG5ckBJuyhWWSRaDEXBvMIHFZRszVkj~KFK3PbgKtyJFV4vVwRQrmnjW-sNL1DZ0TjXvAH8gA__"
+            alt="post"
+          />
+          <div class="post-info">
+            <div style="display: flex">
+              <div class="likes">
+                <i class="ri-heart-line"></i>
+                <i class="ri-chat-3-line"></i>
+                <i class="fa-regular fa-paper-plane"></i>
+              </div>
+              <i class="fa-regular fa-bookmark" style="margin-left: 375px"></i>
+            </div>
+          </div>
+          <div style="margin-top: 10px">6,724 likes</div>
+          <p style="margin-top: 10px">
+            <b>kurzgesagt</b> For every video we upload to YouTud=be we created
+            diffrent versions of the final thumbnail....
+          </p>
+          <p style="color: darkgrey; margin-top: 10px">View all 37 comments</p>
+          <p style="margin-top: 10px">
+            <b>kurzgesagt</b> @_cazme_ For every video we upload to YouTud=be we
+            created diffrent versions of the final thumbnail....
+          </p>
+          <p style="margin-top: 10px"><b>kurzgesagt</b> @xandrames2</p>
+          <p style="margin-top: 10px">Add a comment...</p>
+        </div>
+      </div>
+    </div>
+    <div class="post" style="margin-top: -250px">
+      <div class="main-post">
+        <!-- Posts1 -->
+        <div class="post-box">
+          <div class="post-profile">
+            <div class="post-img">
+              <img
+                src="https://s3-alpha-sig.figma.com/img/9c8c/1d9d/b700ae61ba63cc70c644fd220beeb17f?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=a9nyh7ruTMFoLrM8lkL0MVX-Iicg95bv98a1HC~H66OwH-DWxW-~a9uoMpc0he0r27RXFtJuQt-CNs~xT4aWB3SqG-omsU46BelJ9Nd4eZBQm-nzCJPRXTS7ymjTeOjnI0EjcgEYU72yQiqaHX~UiY66ELNUMvWnOFt7k5I6rLvOFLJK91S98Y9OugL~4l8q4ty5bpCHoGYTQr4CDM16o3U-FSKll4wh8Opdhl511kN7Ca6VABr1txk9HQmJQOqTgDmx1ysAG9ENbIJDTbZzzegX4j2CRRCDY9-UGhoaIPBZPeaRHGgelNutBQeLfYjxJdvYsTMQTP6v0N6oHx8K8g__"
+                alt="profile"
+              />
+            </div>
+            <h3>
+              discovery
+              <i class="ri-verified-badge-fill" style="color: blue"></i>
+            </h3>
+            <i
+              class="ri-more-fill"
+              style="display: inline; margin-left: 300px"
+            ></i>
+          </div>
+          <img
+            src="https://s3-alpha-sig.figma.com/img/d64f/4876/5b624f8802a0be962466928bdce04dce?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=U4Iag7S4MNzzf1eI7jGvdIFAIsccEQ9H5UTXLKusBkGyYZGf5L404a5XxQkkfKOWDOO3dpMiLtfUDMVBRio7wgJHnuWTAmItmKjdi7TcxtpTNek8sfYPPAQ6QH5U4IVBY8QrbdOD-0r~ksezaByiaXTJGMtnxlaZcBb-ujfPUpgbywdbAjoHexbBc7577G2CJWH1MTwCgsw9C~YjZhXmD2gaFCMxPAfTJ0GfRisXv6ZroAgvJkxx3AAnqulr9X2u4PwONqXdhB6rKIe6YnHJDQv7ElxHB5oMN3nwPHTcce-WV3hSckhXmiuP~5yY2INNPO25d4yx5gHnukgCtr6C0A__"
+          />
+          <div class="post-info">
+            <div style="display: flex">
+              <div class="likes">
+                <i class="ri-heart-line"></i>
+                <i class="ri-chat-3-line"></i>
+                <i class="fa-regular fa-paper-plane"></i>
+              </div>
+              <i class="fa-regular fa-bookmark" style="margin-left: 375px"></i>
+            </div>
+          </div>
+          <div style="margin-top: 10px">741,368 likes</div>
+          <p style="margin-top: 10px">
+            <b>discovery</b> Parabens Atrton, mlnha inspiracao sempre
+          </p>
+          <p style="margin-top: 10px"><b>See translation</b></p>
+          <p style="color: darkgrey; margin-top: 10px">
+            View all 13,384 comments
+          </p>
+          <p style="margin-top: 10px">Add a comment...</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
